@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href ="style.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src= "main.js"> </script>
+</head>
+<body>
+    
+    <h1>Class Marksheet</h1>
+    <form id="oNhap">
+        <label>Họ tên</label>
+        <input class="coll" type="text" id="name"><br> <br>
+        <label>Điểm toán</label>
+        <input class="coll" type="text" id="math"><br><br>
+        <label>Điểm lý</label>
+        <input class = "coll" type="text" id="physical"><br><br>
+        <label>Điểm hóa</label>
+        <input class= "coll" type="text" id="chemical"><br><br>
+    </form>
+    <button id="sumit" >Nhập</button>
+    <table id="table" style="width:100%">
+        <tr>
+            <th id="stt">STT</th>
+            <th id="ht">Họ tên</th>
+            <th id="to">Toán</th>
+            <th id="ly">Lý</th>
+            <th id="ho">Hóa</th>
+            <th id="tb">Trung bình</th>
+        </tr>
+       
+    </table>
+    <div id="nutDuoi">
+    <button type="button" id= "avage" > Tính trung bình </button>
+    <button type="button" id="gStudent" > Xác nhận học sinh giỏi </button>
+    <button id="delete" type="button" onclick="remove()" > Delete </button>
+    <input id="print" type="button" value="Print" onclick="window.print()" />
+    </div>
+</body>
+</html>

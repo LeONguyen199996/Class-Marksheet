@@ -1,0 +1,57 @@
+
+body {
+   background-color:rgb(180, 180, 175); 
+}
+table, th, td {
+    border:1px solid black;
+    background-color: white;
+    
+}
+h1 {
+    text-align: center;
+    color: rgb(59, 46, 179);
+    text-shadow: 2px 2px 5px rgb(75, 219, 238);
+  }
+#oNhap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding: 10px 20px 10px 50px;
+}
+#sumit {
+    margin-left: 50%; 
+    margin-bottom: 2%;
+}
+#nutDuoi {
+    margin-left: 43%; 
+    margin-top: 2%; 
+}
+td {
+    text-align: center;
+}
+.coll {
+    width: 100%;
+    height: 10px;
+  padding: 12px;
+  border: 1px solid rgb(29, 146, 241);
+  border-radius: 4px;
+  resize: none;
+}
+label {
+    color: rgb(22, 122, 122);
+    font-weight: bold;
+    font-size: 18px;
+
+}
+button {
+  background-color:rgb(15, 188, 211);
+  color: white;
+  padding: 5px 8px;
+  border-radius: 8px;
+}
+#print {
+  background-color:rgb(15, 188, 211);
+  color: white;
+  padding: 5px 8px;
+  border-radius: 8px;
+}
